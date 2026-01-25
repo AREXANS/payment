@@ -7,7 +7,7 @@ body {
     font-family: 'Inter', sans-serif; /* Default font */
     /* Change background to GIF */
     background: url('https://imagedelivery.net/c2SKP8Bk0ZKw6UDgeeIlbw/9ef5b2ed-3acd-4582-c598-e94838394700/public') no-repeat center center fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 5px; /* Minimal padding for body to allow container to fill space */
     box-sizing: border-box;
-    overflow: hidden; /* Prevent body scroll */
+    overflow-x: hidden; /* Prevent horizontal body scroll */
     color: #e0e7ff; /* Light blue-ish text color */
 }
 
