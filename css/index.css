@@ -21,7 +21,7 @@ body {
   height: 100%;
   z-index: -9999;
   background: url('https://imagedelivery.net/c2SKP8Bk0ZKw6UDgeeIlbw/9ef5b2ed-3acd-4582-c598-e94838394700/public') no-repeat center center;
-  background-size: cover;
+  background-size: 100% 100%;
   pointer-events: none;
 }
 
