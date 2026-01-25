@@ -5,9 +5,7 @@
 
 body {
     font-family: 'Inter', sans-serif; /* Default font */
-    /* Change background to GIF */
-    background: url('https://imagedelivery.net/c2SKP8Bk0ZKw6UDgeeIlbw/9ef5b2ed-3acd-4582-c598-e94838394700/public') no-repeat center center fixed;
-    background-size: cover;
+    background: transparent !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +15,18 @@ body {
     box-sizing: border-box;
     overflow-x: hidden; /* Prevent horizontal body scroll */
     color: #e0e7ff; /* Light blue-ish text color */
+}
+
+#global-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -9999;
+    background: url('https://imagedelivery.net/c2SKP8Bk0ZKw6UDgeeIlbw/9ef5b2ed-3acd-4582-c598-e94838394700/public') no-repeat center center;
+    background-size: cover;
+    pointer-events: none;
 }
 
 /* Base glow effect for main containers */
