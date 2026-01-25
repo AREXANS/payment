@@ -5,7 +5,7 @@
 body {
   font-family: 'Outfit', sans-serif;
   background: url('https://imagedelivery.net/c2SKP8Bk0ZKw6UDgeeIlbw/9ef5b2ed-3acd-4582-c598-e94838394700/public') no-repeat center center fixed;
-  background-size: cover;
+  background-size: 100% 100%;
   color: white;
   text-align: center;
   overflow-x: hidden;
